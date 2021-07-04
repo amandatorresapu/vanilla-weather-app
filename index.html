@@ -14,15 +14,23 @@
   </head>
   <body>
     <div class="container">
+      <div class="weather-app-wrapper"></div>
       <div class="weather-app">
+        <div class="overview">
             <h1>New York<h1>
               <ul>
                 <li>Friday 7:00pm</li>
                 <li>Clear</li>
               </ul>
+            </div>
                         <div class="row">
                               <div class="col-6">
-                                  <img src="src/all-weather.png" alt="Sunny" width="100px"> 12°| °F
+                                <div class="d-flex weather-tempature">
+                                  <img src="src/Sunny-icon.png" alt="Sunny" width="100px" class="float-left">
+                                  <div class="float-left">
+                                   <strong>12</strong> °C | °F
+                                  </div>
+                                </div>
                               </div>
                               <div class="col-6">
                                   <ul>
@@ -32,10 +40,11 @@
                                   </ul>
                               </div>      
                           </div>
-                <small> <a href="https://github.com/amandatorresapu/vanilla-weather-app.git" target="_blank">Open-Source code</a>
-                  by Amanda Torres</small> 
+                
         </div>
-        
+        <small> <a href="https://github.com/amandatorresapu/vanilla-weather-app.git" target="_blank">Open-Source code</a>
+                  by Amanda Torres</small> 
+                  </div>
       </div>
     <script src="src/index.js"></script>
   </body>
