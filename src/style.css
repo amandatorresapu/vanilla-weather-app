@@ -1,5 +1,5 @@
 body {
-  font-family: Roboto, arial, sans-serif;
+  font-family: roboto, Helvetica, sans-serif, sans-serif;
 }
 
 .weather-app {
@@ -9,12 +9,22 @@ body {
   border: 1px solid #dadce0;
   border-radius: 10px;
 }
+
 h1 {
-  color: rgb(32, 33, 36);
-  font-size: 24px;
+  color: #686b74;
+  font-size: 30px;
   font-weight: 100;
   line-height: 28px;
+  margin-bottom: 0;
+}
+ul {
+  margin: 0;
+  padding: 0;
 }
 li {
   list-style-type: none;
+  color: black;
+  font-size: 15px;
+  font-weight: 100;
+  line-height: 19px;
 }
