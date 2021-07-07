@@ -9,6 +9,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
 <link rel="stylesheet" href="src/style.css" />
     <title>Vanilla Weather Application</title>
   </head>
@@ -17,10 +18,10 @@
       <div class="weather-app-wrapper"></div>
       <div class="weather-app">
         <div class="overview">
-            <h1>New York<h1>
+            <h1 id="city"><h1>
               <ul>
                 <li>Friday 7:00pm</li>
-                <li>Clear</li>
+                <li id="description">Clear</li>
               </ul>
             </div>
                         <div class="row">
@@ -28,15 +29,15 @@
                                 <div class="d-flex weather-tempature">
                                   <img src="src/Sunny-icon.png" alt="Sunny" width="100px" class="float-left">
                                   <div class="float-left">
-                                   <strong>12</strong><span class="units">°C |<a href="#">°F</a> </span> 
+                                   <strong id="temperature">12</strong><span class="units">°C |<a href="#">°F</a> </span> 
                                   </div>
                                 </div>
                               </div>
                               <div class="col-6">
                                   <ul>
                                     <li>Preception: 0%</li>
-                                    <li>Humidity: 73%</li>
-                                    <li>Wind: 2 mph</li>
+                                    <li>Humidity: <span id="humidity"> </span>% </li>
+                                    <li>Wind: <span id="wind"></span> mph</li>
                                   </ul>
                               </div>      
                           </div>
