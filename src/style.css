@@ -33,7 +33,7 @@ li {
   margin-bottom: 20px;
 }
 .weather-tempature img {
-  margin-right: 10px;
+  margin-right: 15px;
   height: 64px;
   width: 64px;
 }
@@ -43,4 +43,9 @@ li {
   font-size: 40px;
   line-height: 1;
   font-weight: 300px;
+}
+.weather-tempature .units {
+  position: relative;
+  font-size: 16px;
+  top: -18px;
 }
