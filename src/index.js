@@ -69,10 +69,10 @@ function displayFahrenheitTemperature(event) {
   temperatureElement.innerHTML = Math.round(fahrenheitTemperature);
 }
 
-search("merced");
-
 let form = document.querySelector("#search-form");
 form.addEventListener("submit", handleSubmit);
 
 let fahrenheitlink = document.querySelector("#fahrenheit-link");
 fahrenheitlink.addEventListener("click", displayFahrenheitTemperature);
+
+search("merced");
