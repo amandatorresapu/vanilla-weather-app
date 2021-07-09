@@ -27,7 +27,7 @@ li {
 }
 .weather-app {
   padding: 20px;
-  border: 1px solid #dadce0;
+  border: 2px solid black;
   border-radius: 10px;
 }
 .overview {
